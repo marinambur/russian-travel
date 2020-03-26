@@ -12,8 +12,10 @@
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/section/__width/section__width_large.css);
+@import url(../blocks/section/_large/section_large.css);
 @import url(../blocks/section/_middle/section_middle.css);
+@import url(../blocks/section/_tablet/section_tablet.css);
+@import url(../blocks/section/_mobile/section_mobile.css);
 
 html {
     font-size: 16px;
