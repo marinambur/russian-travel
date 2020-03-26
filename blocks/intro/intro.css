@@ -1,7 +1,7 @@
 @import url(../intro/__block/intro__block.css);
 @import url(../intro/__content-row/intro__content-row.css);
-@import url(../intro/__text-item/intro__text-item.css);
-@import url(../intro/__text-span/intro__text-span.css);
+@import url(../intro/__list/intro__list.css);
+@import url(../intro/__span/intro__span.css);
 @import url(../intro/__text/intro__text.css);
 @import url(../intro/__title/intro__title.css);
 .intro {

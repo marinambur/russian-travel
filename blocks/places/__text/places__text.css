@@ -29,5 +29,6 @@
 @media (max-width: 767px) {
     .places__text {
         width: 100%;
+        align-self: center;
     }
 }

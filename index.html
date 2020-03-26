@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./blocks/pages/index.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -13,23 +12,23 @@
     <div class="page">
         <header class="header section__width_large">
             <div class="header__container">
-                <img class="header__logo" src="./images/__logo (1).png">
+                <img class="header__logo" src="./images/__logo (1).svg">
                 <ul class="header__lang">
-                    <a class="header__link" href="#">Ru</a>
+                    <a class="header__link header__link_active" href="#">Ru</a>
                     <a class="header__link" href="#">En</a>
                 </ul>
             </div>
         </header>
         <section class="lead section_middle">
-
-            <h1 class="lead__title">Путешествия по России</h1>
-            <p class="section-subtitle lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <h1 class="lead__title section_middle_mobile">Путешествия по России</h1>
+            <p class="section-subtitle lead__subtitle section_middle_mobile">Настоящая страна не в выпусках новостей, а
+                здесь.</p>
             <div class="lead__container">
                 <img class="lead__image" src="./images/__image (1).jpg" alt="Девушка лежит на полке поезда">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </div>
         </section>
-        <section class="intro section_middle layer-first section__width_medium">
+        <section class="intro section_middle section_middle_tablet section_middle_mobile">
             <div class="intro__block">
                 <h3 class="intro__title">Чего мы там не видели?</h3>
                 <p class="intro__content-row">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -49,20 +48,18 @@
                     места,
                     достойные вашего отпуска.</p>
                 <ul class="intro__text">
-                    <li class="intro__text-item">Часовых поясов<span class="intro__text-span"> 11</span></li>
-                    <li class="intro__text-item">Объектов природного наследия ЮНЕСКО<span class="intro__text-span">
+                    <li class="intro__list">Часовых поясов<span class="intro__span"> 11</span></li>
+                    <li class="intro__list">Объектов природного наследия ЮНЕСКО<span class="intro__span">
                             12</span></li>
-                    <li class="intro__text-item">Объектов культурного наследия ЮНЕСКО<span class="intro__text-span">
+                    <li class="intro__list">Объектов культурного наследия ЮНЕСКО<span class="intro__span">
                             16</span></li>
-                    <li class="intro__text-item">Природных заповедников<span class="intro__text-span"> 105</span></li>
-                    <li class="intro__text-item">Аэропортов<span class="intro__text-span"> 241</span></li>
+                    <li class="intro__list">Природных заповедников<span class="intro__span"> 105</span></li>
+                    <li class="intro__list">Аэропортов<span class="intro__span"> 241</span></li>
                 </ul>
             </div>
         </section>
-
-
         <section class="grid">
-            <div class="grid__container section_middle layer-first section__width_medium">
+            <div class="grid__container section_middle section_middle_tablet section_middle_mobile">
                 <div><img class="grid__item" src="./images/__item1.jpg"></div>
                 <div><img class="grid__item" src="./images/__item2.jpg"></div>
                 <div><img class="grid__item" src="./images/__item3.jpg"></div>
@@ -76,10 +73,8 @@
                 <div><img class="grid__item" src="./images/__item11.jpg"></div>
                 <div><img class="grid__item" src="./images/__item12.jpg"></div>
             </div>
-
         </section>
-        <section class="places section_middle section__with_small">
-
+        <section class="places section_middle section_middle_tablet">
             <div class="places__container">
                 <div class="places__block">
                     <h3 class="places__title">Куршская коса</h3>
@@ -94,9 +89,9 @@
                 </div>
                 <div class="places__description">
                     <div class="places__picture-box">
-                        <img class="places__image" src="./images/kurshskaya_kosa.jpg">
+                        <img class="places__image" src="./images/kurshskaya_kosa.jpg" alt="Фото озера">
                     </div>
-                    <div class="places__text">
+                    <div class="places__text section_middle_mobile">
                         <p class="places__article">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
                             горизонта — спокойного
                             Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -108,7 +103,6 @@
                             природы и запах стального, прохладного моря.</p>
                     </div>
                 </div>
-
             </div>
             <div class="places__container">
                 <div class="places__block">
@@ -124,9 +118,9 @@
                 </div>
                 <div class="places__description">
                     <div class="places__picture-box">
-                        <img class="places__image" src="./images/kolsky.jpg">
+                        <img class="places__image" src="./images/kolsky.jpg" alt="Снег, горы и дорога">
                     </div>
-                    <div class="places__text">
+                    <div class="places__text section_middle_mobile">
                         <p class="places__article">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
                             от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
                         </p>
@@ -137,7 +131,6 @@
                             начинает сбываться с билетом в Мурманск.</p>
                     </div>
                 </div>
-
             </div>
             <div class="places__container">
                 <div class="places__block">
@@ -153,9 +146,9 @@
                 </div>
                 <div class="places__description">
                     <div class="places__picture-box">
-                        <img class="places__image" src="./images/altay.jpg">
+                        <img class="places__image" src="./images/altay.jpg" alt="Ноутбук на фоне леса">
                     </div>
-                    <div class="places__text">
+                    <div class="places__text section_middle_mobile">
                         <p class="places__article">Алтай — одно из красивейших мест в России. В первую очередь из-за
                             гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А
                             если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест —
@@ -167,13 +160,12 @@
                             края.</p>
                     </div>
                 </div>
-
             </div>
             <div class="places__container">
                 <div class="places__block">
                     <h3 class="places__title">Зимний Байкал</h3>
                     <div class="places__link-container">
-                        <a class="places__link" href="#">https://vk.com/baikalmile</a>
+                        <a class="places__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                         <svg width="27" height="10" viewBox="0 0 27 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M5.78409 0.272727V6.05114C5.78409 7.41477 4.69318 8.16477 3.44886 8.16477C2.20455 8.16477 1.11364 7.41477 1.11364 6.05114V0.272727H0.0568182V6.05114C0.0568182 8.01136 1.60795 9.15341 3.44886 9.15341C5.28977 9.15341 6.84091 8.01136 6.84091 6.05114V0.272727H5.78409ZM11.3513 9H12.4082V5.59091H14.3173C14.394 5.59091 14.4664 5.59091 14.5388 5.58665L16.3798 9H17.607L15.634 5.39489C16.7462 5.01562 17.2661 4.10795 17.2661 2.94886C17.2661 1.40625 16.3457 0.272727 14.3002 0.272727H11.3513V9ZM12.4082 4.63636V1.21023H14.2661C15.6809 1.21023 16.2263 1.90057 16.2263 2.94886C16.2263 3.99716 15.6809 4.63636 14.2832 4.63636H12.4082ZM21.4271 9H26.5408V8.0625H22.4839V0.272727H21.4271V9Z"
@@ -183,9 +175,9 @@
                 </div>
                 <div class="places__description">
                     <div class="places__picture-box">
-                        <img class="places__image" src="./images/baikal.jpg">
+                        <img class="places__image" src="./images/baikal.jpg" alt="Фотография льда">
                     </div>
-                    <div class="places__text">
+                    <div class="places__text section_middle_mobile">
                         <p class="places__article">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
                             что это самый большой источник пресной воды и одно из красивейших мест в России.
                         </p>
@@ -195,13 +187,12 @@
                             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
                 </div>
-
             </div>
             <div class="places__container">
                 <div class="places__block">
                     <h3 class="places__title">Карелия</h3>
                     <div class="places__link-container">
-                        <a class="places__link" href="#">http://vodlozero.ru/</a>
+                        <a class="places__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
                         <svg width="27" height="10" viewBox="0 0 27 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M5.78409 0.272727V6.05114C5.78409 7.41477 4.69318 8.16477 3.44886 8.16477C2.20455 8.16477 1.11364 7.41477 1.11364 6.05114V0.272727H0.0568182V6.05114C0.0568182 8.01136 1.60795 9.15341 3.44886 9.15341C5.28977 9.15341 6.84091 8.01136 6.84091 6.05114V0.272727H5.78409ZM11.3513 9H12.4082V5.59091H14.3173C14.394 5.59091 14.4664 5.59091 14.5388 5.58665L16.3798 9H17.607L15.634 5.39489C16.7462 5.01562 17.2661 4.10795 17.2661 2.94886C17.2661 1.40625 16.3457 0.272727 14.3002 0.272727H11.3513V9ZM12.4082 4.63636V1.21023H14.2661C15.6809 1.21023 16.2263 1.90057 16.2263 2.94886C16.2263 3.99716 15.6809 4.63636 14.2832 4.63636H12.4082ZM21.4271 9H26.5408V8.0625H22.4839V0.272727H21.4271V9Z"
@@ -211,9 +202,9 @@
                 </div>
                 <div class="places__description">
                     <div class="places__picture-box">
-                        <img class="places__image" src="./images/kareliya.jpg">
+                        <img class="places__image" src="./images/kareliya.jpg" alt="Фотография деревьев и водоема">
                     </div>
-                    <div class="places__text">
+                    <div class="places__text section_middle_mobile">
                         <p class="places__article">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                             сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
                             леса карельских национальных парков из-за непроходимых болот никогда не знали топора.
@@ -224,17 +215,17 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </section>
-        <section class="video section_middle section__with_small">
-            <h3 class="section-title">В глубины Земли и&nbsp;в&nbsp;дальний космос</h3>
-            <p class="section-subtitle">Видео от студии Stereotactic о местах в&nbsp;России, где ведутся
+        <section class="video section_middle section_middle_tablet">
+            <h3 class="section-title section_middle_mobile">В глубины Земли и&nbsp;в&nbsp;дальний космос</h3>
+            <p class="section-subtitle section_middle_mobile">Видео от студии Stereotactic о местах в&nbsp;России, где
+                ведутся
                 фундаментальные исследования</p>
             <div class="video__container">
-                <a class="video__description" href="#">
+                <a class="video__description" href="https://vimeo.com/81106671">
                     <div class="video__item">
-                        <img class="video__item-play" src="./images/__icon_play.png" alt="Значок проигрывателя видео">
+                        <img class="video__item-play" src="./images/__icon_play.svg" alt="Значок проигрывателя видео">
                         <div>
                             <p class="video__item-duration">6:30</p>
                             <h4 class="video__title video__title_kamchatka">Colors of Kamchatka</h4>
@@ -243,10 +234,9 @@
                     </div>
                     <img class="video__image" src="./images/video1.jpg" alt="Пейзаж Камчатки">
                 </a>
-                <a class="video__description" href="#">
+                <a class="video__description" href="https://vimeo.com/290675450">
                     <div class="video__item">
-                        <img class="video__item-play video__item-play_kamchatka" src="./images/__icon_play.png"
-                            alt="Значок проигрывателя видео">
+                        <img class="video__item-play" src="./images/__icon_play.svg" alt="Значок проигрывателя видео">
                         <div>
                             <p class="video__item-duration">24:45</p>
                             <h4 class="video__title">Обсерватория&nbsp;| Observatory</h4>
@@ -257,61 +247,56 @@
                 </a>
             </div>
         </section>
-        <section class="comments section_middle section__with_small">
+        <section class="comments section_middle section_middle_mobile">
             <h3 class="section-title">Фотографы, снимающие Россию</h3>
             <p class="section-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
                 конкурсах</p>
             <div class="comments__block">
                 <div class="comments__container">
-                    <img class="comments__img" src="./images/comment1.jpg">
+                    <img class="comments__img" src="./images/comment1.jpg" alt="Портрет Виктора Лягушкина">
                     <p class="comments__paragraph">«Если вам кажется, что в России ничего не происходит, то просто
                         выгляньте “наружу”…»</p>
                     <p class="comments__title">Виктор Лягушкин</p>
                 </div>
                 <div class="comments__container">
-                    <img class="comments__img" src="./images/comment2.jpg">
+                    <img class="comments__img" src="./images/comment2.jpg" alt="Портрет Ивана Хафизова">
                     <p class="comments__paragraph">«Если в город едут туристы — неважно за чем они туда едут: за
                         шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город
                         молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
                     <p class="comments__title">Иван Хафизов</p>
                 </div>
                 <div class="comments__container">
-                    <img class="comments__img" src="./images/comment3.jpg">
+                    <img class="comments__img" src="./images/comment3.jpg" alt="Портрет Сергея Максимишина">
                     <p class="comments__paragraph">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
                         покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
                     <p class="comments__title">Сергей Максимишин</p>
                 </div>
-
             </div>
-
         </section>
         <section class="cover">
-            <div class="cover__container">
-                <img class="cover__image" src="./images/cover.jpg">
-
-                <h3 class="cover__title">До Байкала «на собаках»</h3>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes —
-                    путешествие
-                    от
-                    столицы до Байкала на электричках.</p>
-            </div>
-
+            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                <div class="cover__container">
+                    <img class="cover__image" src="./images/cover.jpg" alt="Стоянка электричек">
+                    <h3 class="cover__title">До Байкала «на собаках»</h3>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes —
+                        путешествие
+                        от
+                        столицы до Байкала на электричках.</p>
+                </div>
+            </a>
         </section>
         <footer class="footer section__width_large">
-
             <nav class="footer__links">
-                <a class="footer__link">Карты</a>
-                <a class="footer__link">Погода</a>
-                <a class="footer__link">Расписание</a>
-                <a class="footer__link">Календарь</a>
-                <a class="footer__link">Путешествия</a>
+                <a class="footer__link" href="https://yandex.ru/maps/">Карты</a>
+                <a class="footer__link" href="https://yandex.ru/pogoda/">Погода</a>
+                <a class="footer__link" href="https://rasp.yandex.ru/">Расписание</a>
+                <a class="footer__link" href="https://calendar.yandex.ru/">Календарь</a>
+                <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
             </nav>
             <p class="footer__copywright">© 2020. Кузнецова Марина</p>
         </footer>
-
     </div>
     </div>
-
 </body>
 
 </html>

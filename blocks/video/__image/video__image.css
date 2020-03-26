@@ -4,6 +4,7 @@
     opacity: .5;
     border-radius: 5px;
 }
+
 .video__image:hover {
     opacity: .4;
 }

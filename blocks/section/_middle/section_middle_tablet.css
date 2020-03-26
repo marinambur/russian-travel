@@ -1,0 +1,10 @@
+@media (max-width: 1022px) {
+    .section_middle_tablet {
+        max-width: 93.7%;
+    }
+}
+@media (max-width: 767px) {
+    .section_middle_tablet {
+        max-width: 100%;
+    }
+}

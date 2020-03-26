@@ -1,11 +1,14 @@
+@import url(../_middle/section_middle_tablet.css);
+@import url(../_middle/section_middle_mobile.css);
+
 @media (max-width: 1024px) {
     .section_middle {
         width: 90.5%;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .section_middle {
-        width: 93.7%;
+        width: 100%;
     }
 }

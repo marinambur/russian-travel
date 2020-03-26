@@ -2,6 +2,7 @@
 @import url(../cover/__subtitle/cover__subtitle.css);
 @import url(../cover/__image/cover__image.css);
 @import url(../cover/__container/cover__container.css);
+@import url(../cover/__link/cover__link.css);
 .cover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -11,6 +12,7 @@
     padding-bottom: 130px;
     margin: auto;
 }
+
 .cover:hover .cover__image {
     opacity: 0.3;
 }
