@@ -1,0 +1,17 @@
+.comments__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 24px;
+}
+
+@media (max-width: 1023px) {
+    .comments__title {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        margin: auto;
+    }
+}

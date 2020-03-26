@@ -1,0 +1,22 @@
+.header__link {
+    font-family: Inter;
+    font-size: 1.5rem;
+    line-height: 1.4375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__link:last-of-type {
+    margin-left: 18px;
+}
+
+@media (max-width: 767px) {
+    .header__link {
+        font-size: 18px;
+        ;
+    }
+}

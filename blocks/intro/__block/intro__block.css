@@ -1,0 +1,18 @@
+.intro__block {
+    width: 683px;
+    max-width: 683px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+@media (max-width: 1279px) {
+    .intro__block {
+        width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro__block {
+        width: 683px;
+    }
+}

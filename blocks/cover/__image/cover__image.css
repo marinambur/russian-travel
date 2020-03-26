@@ -1,0 +1,18 @@
+.cover__image {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    opacity: 0.8;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .cover__image {
+        height: 100%;
+    }
+}

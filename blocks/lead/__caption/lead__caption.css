@@ -1,0 +1,21 @@
+.lead__caption {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    max-width: 636px;
+    max-height: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+}
+
+@media (max-width: 1023px) {
+    .lead__caption {
+        margin-left: 4.7%;
+    }
+}

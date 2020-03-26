@@ -1,0 +1,23 @@
+@import url(../cover/__title/cover__title.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+@import url(../cover/__image/cover__image.css);
+@import url(../cover/__container/cover__container.css);
+.cover {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 102px;
+    padding-bottom: 130px;
+    margin: auto;
+}
+.cover:hover .cover__image {
+    opacity: 0.3;
+}
+
+@media (max-width: 767px) {
+    .cover {
+        padding-top: 48px;
+        padding-bottom: 0;
+    }
+}

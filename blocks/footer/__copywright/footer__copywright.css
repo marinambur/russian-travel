@@ -1,0 +1,10 @@
+.footer__copywright {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+@media (max-width: 767px) {
+    .footer__copywright {
+        margin-top: 48px;
+    }
+}
