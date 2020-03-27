@@ -8,6 +8,8 @@
 @import url(../places/__picture-box/places__picture-box.css);
 @import url(../places/__text/places__text.css);
 @import url(../places/__title/places__title.css);
+@import url(../places/__title/_kosa/places__title_kosa.css);
+@import url(../places/__url/places__url.css);
 .places {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,4 +26,10 @@
     padding-top: 92px;
     width: 100%;
     max-width: 984px;
+}
+
+@media (max-width: 1023px) {
+    .places {
+        padding-top: 102px;
+    }
 }

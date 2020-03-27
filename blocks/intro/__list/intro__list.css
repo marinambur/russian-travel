@@ -5,3 +5,9 @@
 .intro__list:last-of-type {
     margin-bottom: 102px;
 }
+
+@media (max-width: 767px) {
+    .intro__list:last-of-type {
+        margin-bottom: 64px;
+    }
+}

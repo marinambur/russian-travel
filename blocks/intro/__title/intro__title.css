@@ -5,11 +5,15 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 59px;
+    margin-block-start: 80px;
+    margin-block-end: 48px;
 }
 
 @media (max-width: 767px) {
     .intro__title {
         font-size: 32px;
         line-height: 35px;
+        margin-top: 64px;
+        margin-bottom: 32px;
     }
 }

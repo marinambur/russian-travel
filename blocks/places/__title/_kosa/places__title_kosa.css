@@ -1,0 +1,13 @@
+@media (max-width: 1023px) {
+    .places__title_kosa {
+        width: 45%;
+        padding-right: 8.5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .places__title_kosa {
+        padding-right: 0;
+        width: 95%;
+    }
+}

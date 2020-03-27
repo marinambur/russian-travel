@@ -1,14 +1,6 @@
 .video__description {
-    position: relative;
-    width: 49%;
-    color: #FFFFFF;
-}
-
-@media (max-width: 767px) {
-    .video__description {
-        width: 93%;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    }
+    padding-bottom: 5%;
+    padding-left: 5.2%;
+    position: absolute;
+    z-index: 333;
 }

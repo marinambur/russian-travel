@@ -8,3 +8,12 @@
     margin-bottom: 24px;
     max-width: 683px;
 }
+
+@media (max-width: 767px) {
+    .intro__content-row {
+        font-size: 32px;
+        line-height: 35px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

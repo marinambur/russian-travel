@@ -6,6 +6,8 @@
     font-size: 4.5rem;
     line-height: 4.875rem;
     max-width: 800px;
+    font-weight: 900;
+    margin-bottom: 48px;
 }
 
 @media (max-width: 1023px) {
@@ -13,6 +15,8 @@
         font-size: 42px;
         line-height: 46px;
         max-width: 600px;
+        padding-top: 24px;
+        margin-bottom: 24px;
     }
 }
 

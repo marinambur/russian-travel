@@ -7,8 +7,9 @@
     max-width: 782px;
     max-height: 184px;
     min-width: 288px;
-    margin-top: 18px;
     text-align: center;
+    margin-block-start: 18px;
+    margin-block-end: 0;
 }
 
 @media (max-width: 767px) {

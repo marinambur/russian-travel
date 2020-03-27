@@ -24,8 +24,14 @@
     margin: auto;
 }
 
+@media (max-width: 1023px) {
+    .comments {
+        padding-top: 68px;
+    }
+}
+
 @media (max-width: 767px) {
     .comments {
-        padding-top: 64px;
+        padding-top: 34px;
     }
 }
