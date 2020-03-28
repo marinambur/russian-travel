@@ -2,7 +2,6 @@
 @import url(../comments/__container/comments__container.css);
 @import url(../comments/__img/comments__img.css);
 @import url(../comments/__paragraph/comments__paragraph.css);
-@import url(../comments/__text/comments__text.css);
 @import url(../comments/__title/comments__title.css);
 .comments {
     display: -webkit-box;

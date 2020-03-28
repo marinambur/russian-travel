@@ -1,35 +1,35 @@
 @media (max-width: 1280px) {
-    .section_large {
+    .section-large {
         padding: 30px 3.9% 30px;
     }
 }
 
 @media (max-width: 1279px) {
-    .section_large {
+    .section-large {
         padding: 30px 3.7% 30px;
     }
 }
 
 @media (max-width: 1024px) {
-    .section_large {
+    .section-large {
         padding: 30px 4.7% 30px;
     }
 }
 
 @media (max-width: 768px) {
-    .section_large {
+    .section-large {
         padding: 30px 3.15% 30px;
     }
 }
 
 @media (max-width: 767px) {
-    .section_large {
+    .section-large {
         padding: 30px 4.3% 30px;
     }
 }
 
 @media (max-width: 374px) {
-    .section_large {
-        padding: 30px 5% 30px;
+    .section-large {
+        padding: 16px 5% 30px;
     }
 }

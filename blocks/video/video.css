@@ -2,11 +2,11 @@
 @import url(../video/__play/video__play.css);
 @import url(../video/__duration/video__duration.css);
 @import url(../video/__image/video__image.css);
-@import url(../video/__kamchatka/video__kamchatka.css);
 @import url(../video/__container/video__container.css);
 @import url(../video/__subtitle/video__subtitle.css);
 @import url(../video/__description/video__description.css);
-@import url(../video/__observatory/video__observatory.css);
+@import url(../video/__link/video__link.css);
+
 .video {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

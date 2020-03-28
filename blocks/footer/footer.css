@@ -1,4 +1,4 @@
-@import url(../footer/__copywright/footer__copywright.css);
+@import url(../footer/__copyright/footer__copyright.css);
 @import url(../footer/__link/footer__link.css);
 @import url(../footer/__links/footer__links.css);
 .footer {
@@ -12,6 +12,8 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    max-width: 1184px;
+    margin: auto;
 }
 
 @media (max-width: 767px) {
