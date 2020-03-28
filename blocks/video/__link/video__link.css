@@ -1,5 +1,5 @@
 @import url(./_kamchatka/video__link_kamchatka.css);
-@import url(./_obdervatory/video__link_observatory.css);
+@import url(./_observatory/video__link_observatory.css);
 
 .video__link {
     position: relative;
